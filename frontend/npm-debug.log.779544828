@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.9
+3 info using node@v4.4.7
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle netdisk@1.0.0~predev: netdisk@1.0.0
+6 silly lifecycle netdisk@1.0.0~predev: no script for predev, continuing
+7 info lifecycle netdisk@1.0.0~dev: netdisk@1.0.0
+8 verbose lifecycle netdisk@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle netdisk@1.0.0~dev: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;D:\前端\netdisk\node_modules\.bin;C:\Program Files (x86)\MacType\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Ruby23-x64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\WINDOWS\system32\pthreadVC2.dll;C:\Program Files\TortoiseSVN\bin;D:\phpStudy\php\php-5.6.27-nts;c:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Python27\;C:\Program Files\OpenVPN\bin;C:\ProgramData\ComposerSetup\bin;D:\phpStudy\MySQL\bin;C:\Go\bin;C:\Users\Administrator\AppData\Local\atom\bin;D:\phpStudy\php\php-5.6.27-nts;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\c语言\Dev-Cpp\MinGW64\bin;C;\Program Files\Java\jdk1.7.0_75\bin;C:\Program Files\Java\jre7\bin;C:\Python27\Scripts;C:\Program Files\MongoDB\Server\3.4\bin;C:\Users\Administrator\AppData\Roaming\Composer\vendor\bin;D:\phpStudy\MySQL\bin;C:\Program Files (x86)\MacType
+10 verbose lifecycle netdisk@1.0.0~dev: CWD: D:\前端\netdisk
+11 silly lifecycle netdisk@1.0.0~dev: Args: [ '/d /s /c', 'node build/dev-server.js' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:873:11)
+12 verbose stack     at process.kill (node.js:777:15)
+12 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:72:20)
+12 verbose stack     at process.emit (events.js:166:7)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (node.js:804:46)
+13 verbose cwd D:\前端\netdisk
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+16 error node v4.4.7
+17 error npm  v3.10.9
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
